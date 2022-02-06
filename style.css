@@ -1,0 +1,134 @@
+body{
+    background-color: #292929;
+}
+header{
+    background-color: black;
+}
+.banner{
+    background-image: url(./IMG/dapp.jpg);
+    height: 25vw;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 75%;
+    background-attachment: fixed;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f3971b;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+
+h2{
+    color: #f89007;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+section{
+    text-align: center;
+}
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #f89007;
+    display: flex;
+}
+h3,h4{
+    color: white;
+}
+
+.flex-right {
+    margin-left: auto;
+}
+
+  
+  .carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .carousel-cell video{
+      max-width: 100%;
+  }
+   
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 */
+    position: relative;
+    width: 100%;
+  } 
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-responsive{
+      max-width: 100%;
+      height: 50vh;
+  }
+  
+  .image{
+      border-radius: 50%;
+  }
+
+  .profile_name{
+      font-size: 2em;
+      font-weight: 700;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+      text-transform: uppercase;
+  }
+
+  .sm-handle a{
+      background-color: black;
+      padding: 10px 15px;
+      border-radius: 30px;
+      margin: 5px 10px;
+      text-decoration: none;
+      color: white;
+  }
+
+  .sm-handle a:hover{
+    background-color: #f89007;
+}
+
+@media screen and (max-width: 700px){
+    ul,footer,.sm-handle{
+        flex-direction: column;
+    }
+    .flex-right{
+        margin-left: 0;
+    }
+}
